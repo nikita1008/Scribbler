@@ -1,14 +1,70 @@
-body{
-   background: url('background.jpg');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-position: center center;
-   background-size: cover;
-   margin: 0 !important;
-   background-size: 100% cover!important;
-   overflow:hidden;
-   display: block;
-} 
+body {
+  background: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  margin: 0 !important;
+  background-size: 100% cover !important;
+  overflow: hidden;
+  display: block;
+}
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
-                                 
+
+/* css used for the post button */
+/* edited */
+.postButtons {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -15vh;
+}
+
+/*common css used for both all post and create post */
+/*edited*/
+#all_post,
+#create_post {
+  margin: 10px;
+  background-color: #ffd11a;
+  padding: 0px 15px;
+  font-size: 15px;
+  color: black;
+}
+
+.create_post_model {
+  width: 100%;
+  height: 100%;
+}
+.text1 {
+  width: 50%;
+  height: 100px;
+}
+
+.modal-body label {
+  color: black;
+}
+
+.modal-body input,
+textarea {
+  background: beige;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+#up_button {
+  background-color: #5eb762;
+}
+
+#in_button {
+  background-color: #5eb762;
+}
+
+#create_btn {
+  padding: 10px;
+  background-color: #5eb762;
+  color: white;
+}
